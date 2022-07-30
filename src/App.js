@@ -1,5 +1,5 @@
 import './App.css';
-import { Routes, Route, Navigate, HashRouter} from 'react-router-dom'
+import { BrowserRouter Routes, Route, Navigate} from 'react-router-dom'
 
 //Hook
 import { useAuth } from './hooks/useAuth';
@@ -24,7 +24,7 @@ function App() {
 
   return (
     <div className="App">
-      <HashRouter>
+      <BrowserRouter>
         <Routes>
           <Route
             path="login"
@@ -57,7 +57,7 @@ function App() {
             />
           </Route>
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </div>
   );
 }
