@@ -1,0 +1,13 @@
+.brand{
+    width: 60%;
+}
+.brand img{
+    max-width: 100%;
+    display:none;
+}
+
+@media (max-width: 600px) {
+    .brand img {
+        display: block;
+    }
+}

@@ -1,0 +1,26 @@
+.message{
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px 0px 30px;
+    border-radius: 50px;
+    width: 200px;
+    background-color: rgb(255, 144, 9);
+    border-bottom:2px solid #000 ;
+    font-size: .9em;
+}
+.message p{
+    line-height: normal;
+    color:#fff
+}
+.message.error{
+    background-color: #e10017;
+    border-bottom: 2px solid #a90011;
+}
+.message.success{
+    background-color: #008430;
+    border-bottom: 2px solid #01d24e;
+}

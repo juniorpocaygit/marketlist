@@ -1,0 +1,164 @@
+.new-list{
+    width: 80%;
+    margin: 0 auto;
+}
+.new-list h3{
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.new-list form {
+    width: 100%;
+    margin: 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+.new-list form input {
+    width: 90%;
+    height: 32px;
+    margin: px 0px;
+    border-radius: 50px;
+    border: 1px solid #d1d1d1;
+    outline: none;
+    padding-left: 20px;
+}
+.new-list form input[type="submit"] {
+    width: 40%;
+    background-color: #019BD5;
+    border: none;
+    color: #fff;
+    outline: none;
+    cursor: pointer;
+    padding-left: 0px;
+    margin-left: 10px;
+    opacity: .7;
+    transition: .3s;
+}
+.list-header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background-color: #e2e2e2;
+    border-radius: 50px;
+    font-size: .9em;
+}
+.title-list{
+    width: 35%;
+}
+.date-list-header{
+    width: 30%;
+    text-align: center;
+    margin-left: 10px;
+}
+.action-list-header{
+    width: 30%;
+    text-align: center;
+    padding-left: 10px;
+}
+.user-list{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 20px;
+    font-size: .9em;
+}
+.user-list h3{
+    margin-left: 20px;
+    margin-bottom: 5px;
+
+}
+.list-container{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin-top: 15px;    
+}
+.list-container p{
+    margin-left: 20px;
+}
+.name-list{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 13px 20px;
+    border-bottom: 1px solid #d1d1d1;
+}
+.name-list span{
+    width: 35%;
+    margin-right: 10px;
+}
+.date-list{
+    width: 25%;
+    margin-right: 10px;
+}
+.actions{
+    width: 25%;
+}
+.line-list{
+    width: 100%;
+}
+button{
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.actions .btn{
+    background-color: bisque;
+    padding: 8px 8px 5px 8px;
+    border-radius: 50px;
+    margin-left: 8px;
+    color: #fff;
+}
+.edit{
+    background-color: #019BD5!important;
+}
+.delete{
+    background-color: #c30000!important;
+}
+.cancel{
+    background-color: #676767!important;
+}
+@media (max-width: 600px) {
+    .new-list {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .new-list form input[type="submit"] {
+        width: 40%;
+        opacity: 1;
+        font-size: .8em;
+        transition: .3s;
+        padding: 0 10px;
+    }
+    .user-list {
+        width: 95%;
+        padding: 0 5px;
+        font-size: .9em;
+    }
+    .title-list {
+        width: 30%;
+    }
+    .date-list-header {
+        width: 35%;
+        text-align: center;
+        margin-left: 0px;
+    }
+    .action-list-header {
+        width: 25%;
+        text-align: center;
+        padding-left: 0px;
+    }
+    .actions {
+        width: 29%;
+    }
+    .name-list {
+        display: flex;
+        justify-content: space-between;
+        max-width: 100%;
+        padding: 10px 15px;
+        align-items: center;
+        border-bottom: 1px solid #d1d1d1;
+    }
+}

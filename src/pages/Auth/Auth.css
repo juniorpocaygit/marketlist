@@ -1,0 +1,68 @@
+.auth-content{
+    height: 100vh;
+    background: linear-gradient(195deg, rgba(255, 0, 161, 1) 35%, rgba(0, 181, 201, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.auth-area{
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+.auth-area img{
+    width: 80%;
+}
+.auth-area p{
+    font-size: .9em;
+    line-height: 0px;
+}
+.auth-area p a{
+    text-decoration: none;
+    color: #27C4FF;
+    font-weight: 700;
+    
+}
+.auth-area form{
+    width: 80%;
+    margin: 10px 0px;
+}
+.auth-area form input{
+    width: 90%;
+    height: 32px;
+    margin: 5px 0px;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    padding-left: 20px;
+}
+.auth-area form input::placeholder{
+    font-size: .9em;
+    padding-left: 0px;
+}
+.auth-area form input[type="submit"]{
+    width: 100%;
+    background-color: #019BD5;
+    color: #fff;
+    margin-top: 15px;
+    outline: none;
+    cursor: pointer;
+    padding-left: 0px;
+    opacity: .8;
+    transition: .3s;
+}
+.auth-area form input[type="submit"]:hover{
+    opacity: 1;
+    transition: .3s;
+}
+.auth-area form input:disabled{
+    cursor: not-allowed;
+    background-color: rgb(85, 85, 85);
+}
+.auth-area img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
